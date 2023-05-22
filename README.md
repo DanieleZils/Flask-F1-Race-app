@@ -35,7 +35,6 @@ Open another terminal
 The application should now be running on ```localhost:3000```
 
 
-*** 
 
 ## App Screenshots
 
@@ -49,6 +48,8 @@ The application should now be running on ```localhost:3000```
 ## Drivers Page
 
 ***
+
+The "DRIVERS" page show all drivers and their most basic info. Users have the option to "Ban" a driver, which deletes the driver from the front-end and the back-end database. A form to Add a new driver to the list is at the bottom of the page.
 
 ### Driver Model:
 
@@ -81,6 +82,7 @@ bio: Driver's bio represented as a string
 
 ***
 
+The "RACES" page shows a list of Circuits with their basic information. Similar to the Drivers page, this page has a form to Add a new race/circut to the list. You can also click on a specific track/circut to be taken to that specific circuit link and see more details about that race.
 
 ### Race Model
 
@@ -104,6 +106,10 @@ details: Race details represented as a string
 ## Race Stats
 
 ***
+
+
+The "STATS" page shows a list of mock stats that show certain drivers' best lap time for a certain Race/Grand Prix. Users also have the ability to add driver stats with a form at the bottom of the page.
+
 
 ###DriverRace Model
 
